@@ -46,6 +46,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.vcxproj.user
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -90,6 +91,7 @@ artifacts/
 *_p.c
 *_i.h
 *.ilk
+*.idb
 *.meta
 *.pdb
 *.pgc
