@@ -29,7 +29,7 @@ int main() {
 		if (expressionInput != terminateCommand) {
 				std::unique_ptr<Expression> expression(new Expression(expressionInput));
 
-				expression->ConvertToPostfix();
+				expression->convertToPostfix();
 
 				ViewFormatter::renderSpace();
 				expression->displayInfix();

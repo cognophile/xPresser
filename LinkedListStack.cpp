@@ -39,15 +39,17 @@ void LinkedListStack::pushToStack(char character){
 	top = current;
 }
 
-/** getTopNode
+/** getTopNodeValue
  	Returns the value of the top node 
 @param: void
 @return value of 'top': char
 */
 char LinkedListStack::getTopNodeValue() const {
-	if (isStackEmpty())
+	if (isStackEmpty()) {
 		ViewFormatter::outputMessage("No operators found.");
-	return top->stackCharacter;
+	} else {
+		return top->stackCharacter;
+	}
 }
 
 /** popFromStack

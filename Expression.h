@@ -10,16 +10,21 @@ private:
 	string outputPostfix = ("");
 
 public:
+
 #pragma region Constructors/Destructor Function Prototype Declarations
+	
 	Expression(string expressionInput) : inputInfix (expressionInput) {}
 	~Expression();
+
 #pragma endregion 
 
 #pragma region Member Function Prototype Declarations 
-	void ConvertToPostfix();
+
+	void convertToPostfix();
 
 	void displayInfix() const;
 	void displayPostfix() const;
+
 #pragma endregion 
 };
 

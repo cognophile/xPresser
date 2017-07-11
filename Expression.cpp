@@ -10,12 +10,12 @@ Expression::~Expression()
 
 #pragma region Expression Class Member Functions Implementation
 
-/** ConvertToPostfix
+/** convertToPostfix
 	Core algorithm to process input expression & build output expression.
 @param: void
 @return: void
 */
-void Expression::ConvertToPostfix() {
+void Expression::convertToPostfix() {
 
 	// Initialise Stack Structure and character object for evaluating each character of string  
 	std::unique_ptr<Character> character;
